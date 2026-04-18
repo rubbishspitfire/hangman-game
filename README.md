@@ -1,16 +1,48 @@
-# React + Vite
+# 🎮 Hangman Game (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive Hangman-style word guessing game built with React and Vite. Players can guess letters using an on-screen keyboard or their physical keyboard, track wins and losses, and play across multiple categories.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+👉 https://rubbishspitfire.github.io/YOUR-REPO-NAME/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎯 Random word generation by category
+- ⌨️ Physical keyboard + on-screen keyboard support
+- ❌ Wrong guess tracking with visual feedback
+- 🏆 Win / Lose detection system
+- 💾 Persistent score tracking using localStorage
+- 🔁 Restart game + reset score functionality
+- 📱 Responsive design for mobile and desktop
+
+---
+
+## 🛠 Tech Stack
+
+- React (Vite)
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- LocalStorage API
+
+---
+
+## 🧠 How It Works
+
+- A random word is selected from a chosen category
+- Players guess letters one at a time
+- Correct guesses reveal letters in the word
+- Incorrect guesses increase the hangman progress
+- Game ends when:
+  - All letters are guessed (win)
+  - Max wrong guesses reached (loss)
+
+---
+
+## 📂 Project Structure
+
