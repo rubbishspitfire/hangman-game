@@ -6,7 +6,7 @@ An interactive Hangman-style word guessing game built with React and Vite. Playe
 
 ## 🚀 Live Demo
 
-👉 https://rubbishspitfire.github.io/YOUR-REPO-NAME/
+👉 https://rubbishspitfire.github.io/hangman-game/
 
 ---
 
